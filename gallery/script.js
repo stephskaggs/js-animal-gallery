@@ -10,6 +10,8 @@ $ ('.filter-button').on('click' , function (e){
 		showAnimals(species);
 	}
 	$('#' + species).toggleClass('active');
+	
+	alertify.log('toggled ' + species + 's')
 });
 
 
